@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: account-service
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: false
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.banco.digital: DEBUG
